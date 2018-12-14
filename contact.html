@@ -6,6 +6,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script>
+        function emailClicked(){
+        window.location.href = "mailto:jason.mcgill69@yahoo.com"
+    }
+    function phoneClicked(){
+        window.location.href = "tel:07585963956"
+    }
+
+    </script>
 </head>
 <body>
 
@@ -55,7 +64,7 @@
             </header>
             <p>07585963956 </p>
             <ul class="actions">
-                <li><a href="tel:07585963956" class="button alt">Call Us</a></li>
+                <li><button onclick="phoneClicked()" class="button alt">Call Us</button></li>
             </ul>
         </div>
     </article>
@@ -67,7 +76,7 @@
             </header>
             <p>jason.mcgill69@yahoo.com </p>
             <ul class="actions">
-                <li><a href="mailto:jason.mcgill69@yahoo.com" class="button alt">Email Us</a></li>
+                <li><button onclick="emailClicked()" class="button alt">Email Us</button></li>
             </ul>
         </div>
     </article>
